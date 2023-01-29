@@ -4,7 +4,7 @@ body {
     color: #434455;
     background-color: #e5e5e5;    
 }
-.allbackground {
+.allbackground {    
     background-color: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -38,6 +38,9 @@ body {
 .nav-link:hover, :focus {
     color: #404BBF;
 }
+.nav-link.current {
+    color: var(--active-color);
+}
 .contacts {
     ont-weight: 400;
     font-size: 16px;
@@ -54,7 +57,27 @@ body {
     list-style: none;
 }
 /*main*/
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .backgroundsection {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+}
+.backgroundfooter{
     background-color: #2E2F42;
 }
 /*text*/
@@ -89,9 +112,21 @@ body {
 }
 /*buttom*/
 .indexbtn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;    
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+
     font-weight: 500;
     font-size: 16px;
-    font font-style: ;
+    font-family: inherit;
+    font font-style: normal;
     line-height: 1.5;
     cursor: pointer;
     color: #ffffff;
@@ -110,7 +145,8 @@ body {
 .btn {   
     font-weight: 500;
     font-size: 16px;
-    font font-style: ;    
+    font-family: inherit;
+    font font-style: normal;    
     line-height: 1.5;
     cursor: pointer;
     color: #4D5AE5;
