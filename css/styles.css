@@ -12,7 +12,6 @@ body {
     --active-color: #404BBF;
     --accent-color: #4D5AE5;
 }
-
 .allbackground {    
     background-color: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -114,7 +113,6 @@ body {
     font-size: 16px;
     line-height: 1,5;
 }
-
 .footertext{
     color: #ffffff;
 }
@@ -130,7 +128,7 @@ body {
     height: 56px;
     left: 636px;
     top: 428px;
-
+    /**+**/
     font-weight: 500;
     font-size: 16px;
     font-family: inherit;
