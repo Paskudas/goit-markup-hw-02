@@ -70,8 +70,19 @@ body {
     font-size: 56px;
     line-height: 1.07
 }
-
-
+.textstyle1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.textstyle2 {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1,5;
+}
 
 .footertext{
     color: #ffffff;
