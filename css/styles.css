@@ -58,7 +58,7 @@ body {
     text-decoration: none;
     font-style: normal;
 }
-.contacts:hover,:focus {
+.contacts:hover,.contacts:focus {
     color: #404BBF;
 }
 .list {
@@ -147,7 +147,7 @@ body {
     border: 1px solid #e7e9fc;
     border-radius: 4px;  
 }
-.indexbtn:hover,:focus {
+.indexbtn:hover,.indexbtn:focus {
     background: #404BBF;
     color: #ffffff;
     cursor: pointer;
@@ -168,7 +168,7 @@ body {
     border: 1px solid #e7e9fc;
     border-radius: 4px;
 }
-.btn:hover,:focus {
+.btn:hover, .btn:focus {
     background: #404BBF;
     color: #ffffff;
     cursor: pointer;
